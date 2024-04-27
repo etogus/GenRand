@@ -1,8 +1,48 @@
-This is the *Generating Randomness* project I made myself.
+Generating randomness game.
 
+<p>Initially, the player has a virtual balance of $1000. Every time the computer guesses a symbol correctly, the player loses one dollar. Every time the system is wrong, the player gets one dollar.</p><br/><br/></a>
 
-<p>Everyone knows that people are bad at generating random things. In this project, we will check this assumption using a small self-written program that will predict "random" user actions. We'll see if you can beat it!</p><br/><br/>Learn more at <a href="https://hyperskill.org/projects/156?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/156</a>
+<b>EXAMPLE</b>
 
-Here's the link to the project: https://hyperskill.org/projects/156
+Please provide AI some data to learn...
+The current data length is 0, 100 symbols left
+Print a random string containing 0 or 1:
 
-Check out my profile: https://hyperskill.org/profile/614308358
+> 010100100101010101000010001010101010100100100101001
+The current data length is 51, 49 symbols left
+Print a random string containing 0 or 1:
+
+> 011010001011111100101010100011001010101010010001001010010011
+
+Final data string:
+010100100101010101000010001010101010100100100101001011010001011111100101010100011001010101010010001001010010011
+
+You have $1000. Every time the system successfully predicts your next press, you lose $1.
+Otherwise, you earn $1. Print "enough" to leave the game. Let's go!
+
+Print a random string containing 0 or 1:
+
+> 0111001001
+predictions:
+0101011
+
+Computer guessed 4 out of 7 symbols right (57.14 %)
+Your balance is now $999
+
+Print a random string containing 0 or 1:
+
+> some wrong input
+
+Print a random string containing 0 or 1:
+
+> 0101001001
+predictions:
+1011011
+
+Computer guessed 5 out of 7 symbols right (71.43 %)
+Your balance is now $996
+
+Print a random string containing 0 or 1:
+
+> enough
+Game over!
