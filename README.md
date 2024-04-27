@@ -4,13 +4,13 @@ Generating randomness game.
 
 <b>EXAMPLE</b>
 
-Please provide AI some data to learn...<br/>
-The current data length is 0, 100 symbols left<br/>
-Print a random string containing 0 or 1:<br/>
+> Please provide AI some data to learn...<br/>
+> The current data length is 0, 100 symbols left<br/>
+> Print a random string containing 0 or 1:<br/>
 
 > 010100100101010101000010001010101010100100100101001<br/>
-The current data length is 51, 49 symbols left<br/>
-Print a random string containing 0 or 1:<br/>
+> The current data length is 51, 49 symbols left<br/>
+> Print a random string containing 0 or 1:<br/>
 
 > 011010001011111100101010100011001010101010010001001010010011<br/>
 
